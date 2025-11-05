@@ -1,0 +1,42 @@
+* {
+	background-image: none;
+	box-shadow: none;
+	font-family: "JetBrains Mono Nerd Font";
+	transition: all 0.5s;
+}
+
+window {
+	background-color: rgba(12, 12, 12, 0.5);
+}
+
+button {
+	text-shadow:
+		-1px -1px 3 #1E1E1E,
+		1px -1px 3 #1E1E1E,
+		-1px  1px 3 #1E1E1E,
+		1px  1px 3 #1E1E1E;
+	border: 3px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    color: #FFFFFF;
+	background-color: #1E1E1E;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	margin: 50px
+}
+
+button:focus, button:active {
+	background-size: 80%;
+	box-shadow: 
+		-5px -5px 10 red,
+		5px -5px 10 rebeccapurple,
+		-5px  5px 10 white,
+		5px  5px 10 rebeccapurple;
+}
+
+#lock	 	{ background-image: image(url("/home/denis/.config/wlogout/icons/lock.svg")) }
+#logout 	{ background-image: image(url("/home/denis/.config/wlogout/icons/logout.svg")) }
+#shutdown 	{ background-image: image(url("/home/denis/.config/wlogout/icons/shutdown.svg")) }
+#reboot 	{ background-image: image(url("/home/denis/.config/wlogout/icons/reboot.svg")) }
+#suspend 	{ background-image: image(url("/home/denis/.config/wlogout/icons/suspend.svg")) }
+#hibernate 	{ background-image: image(url("/home/denis/.config/wlogout/icons/hibernate.svg")) }

@@ -1,0 +1,9 @@
+configuration {
+    modi: "run,drun,calc:qalc,window";
+    show-icons: true;
+    icon-theme: "Papirus";
+    font: "JetBrainsMono Nerd Font 10";
+    display-drun: "";
+}
+
+@theme "themes/rounded-nord-dark.rasi"
