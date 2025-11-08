@@ -1,6 +1,0 @@
-[Thumbnailer Entry]
-TryExec=/home/denis/.config/nemo/3mf-thumbnailer.sh
-Exec=/home/deins/.config/nemo/3mf-thumbnailer.sh %i %s %o
-MimeType=application/zip;
-
-#ln -sf /home/denis/.config/nemo/3mf.thumbnailer /home/denis/.local/share/thumbnailers/
