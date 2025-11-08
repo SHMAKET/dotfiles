@@ -14,9 +14,7 @@
     "disk",
     "battery",
     "localip",
-    "publicip",
     "uptime",
     "break"
-    // "colors"
   ]
 }

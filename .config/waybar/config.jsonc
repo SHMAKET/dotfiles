@@ -47,7 +47,7 @@
 
 
 "network#speed": {
-    "format": "⇅{bandwidthTotalBits}",
+    "format": "⇅{bandwidthTotalBytes}",
     "tooltip-format": "⇡ {bandwidthUpBits}\n⇣ {bandwidthDownBits}",
     "format-disconnected": "",
     "interval": 2
