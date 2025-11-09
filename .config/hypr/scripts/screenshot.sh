@@ -24,18 +24,21 @@ notify_saved() {
 
 case "$CHOICE" in
     "      Full screen")
+        pkill rofi; sleep 0.1
         grim "$FULLPATH" || notify_error "grim failed"
         wl-copy < "$FULLPATH"
         notify_saved "Full screen → $FULLPATH"
         ;;
 
     "󰩭      Area")
+        pkill rofi; sleep 0.1
         grim -g "$(slurp -w 0)" "$FULLPATH" || notify_error "grim/slurp failed"
         wl-copy < "$FULLPATH"
         notify_saved "Area → $FULLPATH"
         ;;
 
     "󰏫     Area + Satty")
+        pkill rofi; sleep 0.1
         grim -g "$(slurp -w 0)" -t png - | tee >(wl-copy) | \
         satty --filename - --output-filename "$FULLPATH" || notify_error "Satty/grim/slurp failed"
         ;;
