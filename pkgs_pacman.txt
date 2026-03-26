@@ -1,0 +1,160 @@
+# --- Base System ---
+amd-ucode
+base
+base-devel
+linux
+linux-firmware
+sof-firmware
+grub
+efibootmgr
+plymouth
+meson
+
+# --- Filesystem & Disk ---
+btrfs-progs
+dosfstools
+exfatprogs
+ntfs-3g
+gnome-disk-utility
+smartmontools
+snapper
+gvfs
+gvfs-gphoto2
+gvfs-mtp
+ncdu
+dysk
+
+# --- Firmware & Updates ---
+edk2-ovmf
+fwupd
+
+# --- Networking ---
+networkmanager
+network-manager-applet
+wireless_tools
+openvpn
+samba
+rsync
+wget
+inetutils
+nmap
+tcpdump
+traceroute
+strace
+
+# --- Audio ---
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+gst-plugin-pipewire
+wireplumber
+pamixer
+libpulse
+lib32-libcanberra
+
+# --- Bluetooth ---
+bluez
+bluez-utils
+
+# --- GPU & Display ---
+vulkan-radeon
+xf86-video-amdgpu
+xorg-server
+
+# --- Hyprland & Wayland ---
+hyprland
+hyprlock
+hyprpaper
+hyprpolkitagent
+uwsm
+waybar
+swaync
+rofi
+rofi-calc
+grim
+slurp
+wl-clipboard
+satty
+xdg-desktop-portal-hyprland
+xdg-utils
+qt5-wayland
+qt6-wayland
+qt6-virtualkeyboard
+
+# --- Display Manager ---
+sddm
+
+# --- Theming & Fonts ---
+nwg-look
+lxappearance
+papirus-icon-theme
+sassc
+otf-font-awesome
+otf-monaspace-nerdfonts
+powerline-fonts
+ttf-0xproto-nerd
+ttf-dejavu
+ttf-jetbrains-mono
+ttf-jetbrains-mono-nerd
+ttf-martian-mono-nerd
+woff2-font-awesome
+font-manager
+
+# --- File Manager ---
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-volman
+tumbler
+ffmpegthumbnailer
+udiskie
+gpicview
+
+# --- Terminal & Shell ---
+kitty
+fish
+bat
+lsd
+fzf
+less
+tree
+fastfetch
+btop
+micro
+
+# --- Development ---
+git
+lazygit
+rustup
+fnm
+python-pip
+pkgfile
+bc
+imagemagick
+
+# --- Security ---
+keepassxc
+gnome-keyring
+lxqt-policykit
+
+# --- Applications ---
+firefox
+chromium
+telegram-desktop
+discord
+deluge-gtk
+steam
+flatpak
+openscad
+sublime-text
+
+# --- System Utils ---
+7zip
+unzip
+reflector
+pacman-contrib
+dialog
+dmidecode
+brightnessctl
+syncthing

@@ -1,0 +1,11 @@
+bzmenu-git
+clipse-git
+easyeda-bin
+easyeda-router
+fstl
+orca-slicer-bin
+paru-git
+simple-thumbnailer-stl
+visual-studio-code-bin
+wlogout-git
+yandex-music
